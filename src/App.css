@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter var', sans-serif;
+  background: #eeeeee;
+  color: #101015;
+}
+
+.overlay {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+
+.Canvas {
+position: fixed;
+z-index: 1;
+}
+
+
+
